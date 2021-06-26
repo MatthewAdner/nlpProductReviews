@@ -1,0 +1,4 @@
+web scraping
+data cleaning/processing
+sentiment analysis
+finalize presentable items
