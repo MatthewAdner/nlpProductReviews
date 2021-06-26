@@ -2,3 +2,4 @@ web scraping
 data cleaning/processing
 sentiment analysis
 finalize presentable items
+give data summary to user/save data summary
