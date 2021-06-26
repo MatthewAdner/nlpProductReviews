@@ -3,3 +3,38 @@ data cleaning/processing
 sentiment analysis
 finalize presentable items
 give data summary to user/save data summary
+
+
+NOTES:
+kaggle is a place where there is a bunch of datasets largely for free
+    there is often code
+    kaggle is very cool
+
+NLP pipeline
+    get rid of stop words
+        also emojis
+        "retweet"
+
+find libraries for anger/fear/other emotions
+watson natural language processing has a thing, maybe 
+    look for an open source thing that does something similar
+
+kaggle has some stuff with amazon reviews, some of it has starter code
+    look at this, maybe use it
+
+https://www.kaggle.com/abhishek/approaching-almost-any-nlp-problem-on-kaggle
+    how to approach NLP problems on kaggle
+
+grid search is good -- exaustive search for best hyperparameters for model
+
+for TextBlob -- load in amazon reviews for retraining model
+
+
+
+TODO before next session
+    narrow in on project
+        this could be done by looking through kaggle datasets
+    find a dataset and use it to inspire a project idea
+    also look at other people's work with NLP and stuff
+
+    !!!Newer hypothesis that is more doable!!!
