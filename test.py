@@ -2,6 +2,8 @@
 from typing import Text
 from nltk.util import pr
 from textblob import TextBlob
+import matplotlib.pyplot as plt
+import numpy as np
 
 # prints out polarity and subjectivity subjectivity is how subjective/objective it is, polarity is positive or negative
 testimonial = TextBlob("Text blob is a library.")
@@ -14,3 +16,8 @@ print(f"negTesti is {negTesti.sentiment.polarity}")
 # tests a positive statement for polarity
 postesti = TextBlob("Text blob is great! I love it!")
 print(f"posTesti is {postesti.sentiment.polarity}")
+
+x = np.array(range(-50, 50))
+y = x**2
+plt.plot(x, y)
+plt.show()
